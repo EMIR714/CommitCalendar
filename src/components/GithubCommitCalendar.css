@@ -4,7 +4,9 @@
 .react-calendar-heatmap .color-scale-3 { fill: #44a340; }
 .react-calendar-heatmap .color-scale-4 { fill: #1e6823; }
 .react-calendar-heatmap .color-scale-5 { fill: #18581d; }
-.react-tooltip {
-    z-index: 1000 !important; /* Установите значение, которое подходит для вашего случая */
-  }
-  
+
+select {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
