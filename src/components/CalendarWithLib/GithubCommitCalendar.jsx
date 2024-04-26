@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import CalendarHeatmap from 'react-calendar-heatmap';
 import 'react-calendar-heatmap/dist/styles.css';
 import './GithubCommitCalendar.css';
-import { useFetchData } from '../hooks/useFetchData';
+import { useFetchData } from '../../hooks/useFetchData';
 
 function GithubCommitCalendar() {
   const { data: rawData } = useFetchData('https://dpg.gg/test/calendar.json');
@@ -29,7 +29,7 @@ function GithubCommitCalendar() {
 
   return (
     <div className="main">
-      <div class="select">
+      <div className="select">
       <select value={year} onChange={handleChange}>
         {years.map(year => <option key={year} value={year}>{year}</option>)}
       </select>
