@@ -1,0 +1,10 @@
+.react-calendar-heatmap .color-scale-1-1 { fill: #d6e685; }
+.react-calendar-heatmap .color-scale-1-2 { fill: #b1eb9b; }
+.react-calendar-heatmap .color-scale-2 { fill: #8cc665; }
+.react-calendar-heatmap .color-scale-3 { fill: #44a340; }
+.react-calendar-heatmap .color-scale-4 { fill: #1e6823; }
+.react-calendar-heatmap .color-scale-5 { fill: #18581d; }
+.react-tooltip {
+    z-index: 1000 !important; /* Установите значение, которое подходит для вашего случая */
+  }
+  
